@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DaveSite</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            background-color: #333;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        header {
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+        }
+        nav {
+            background-color: #061f92;
+            padding: 10px 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            display: inline;
+        }
+        li a {
+            color: white;
+            text-decoration: none;
+            transition-duration: .3s;
+            padding: 10px 25px;
+        }
+        li a:hover {
+            font-size: 25px;
+            background-color: blue;
+        }
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .column{
+            flex: 1;
+            margin: 0 10px;
+            padding: 20px;
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+        .column1{
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            padding: 20px;
+        }
+        .image-placeholder {
+            margin-bottom: 1em;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em  0;
+        }
+        .photo {
+            width: 190px;
+            transition-duration: .5s;
+        }
+        .photo:hover {
+            transform: scale(1.5);
+            width: 200px;
+        }
+        .image {
+            flex-direction: column;
+            display: flex;
+            gap: 10px;
+        }
+        .image img {
+            width: 100px;
+        }
+        p{
+            color: #FBE4D8;
+            font-style: italic;
+        }
+        h2{
+            color: whitesmoke;
+        }
+        b{
+            color: rgb(245, 238, 238);
+        }
+        label{
+            color: rgb(245, 238, 238);
+        }
+        .logo{
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RaymondSite</h1>
+        <img src="CRT2.png" alt="" class="logo">
+
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="Website.html">Home</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <div class="column1">
+            <h2>About Me</h2>
+            <p>Photo of me:</p>
+            <div class="image-placeholder">
+                <img src="Messenger_creation_3D19E016-6667-4D97-A832-DD0497875864.jpeg" alt="Photo of Geofrey Dave P. Cifra" class="photo">
+            </div>
+            <p style="color: #fff;">My Name is Raymond R. Agnes<br> 1st year course in Bachelor of Science in Information Technology</p>
+            <h2>More Photos</h2>
+            <p>My Pictures</p>
+            <div class="image">
+                <img src="1.jpeg" alt="Image 1" class="photo">
+                <img src="2.jpeg" alt="Image 2" class="photo">>
+                <img src="3.jpg" alt="Image 3" class="photo">>
+            </div><br>
+            <label for="">Personal Information</label><br>
+            <p><b>Address: </b>kaunlaran homestead 1 talavera,N.E</p>
+            <p><b>Age: </b>18 years old</p>
+            <p><b>Sex: </b>Male</p>
+            <p><b>Height: </b>5'9 ft</p>
+            <p><b>Weigth: </b>58 kg</p>
+            <p><b>Nationality: </b>Filipino</p>
+        </div>
+
+        <div class="column">
+            <h2>My School</h2>
+            <p>College for Research and Technology</p>
+            <div class="crt">
+                <img src="4.jpg" alt="College Image" style="width: 400px;" class="photo">
+            </div>
+            <p>The College for Research and Technology of Cabanatuan (CRT) started as a computer school and has been known to be the first computer school in Nueva Ecija.</p>
+
+            <h2>My Course</h2>
+            <p>Bachelor of Science in Information Technology</p>
+            <div class="image-placeholder">
+                <img src="5.jpg" alt="" style="width: 300px; " class="photo">
+            </div>
+            <p>A Bachelor of Science in Information Technology (BSIT) is a four-year degree program that prepares students for a career in the technology industry.  The curriculum typically includes subjects in computer science, programming, networking, cybersecurity, and database management.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 All Rights CRT creator by AGNES RAYMOND</p>
+    </footer>
+</body>
+</html>
